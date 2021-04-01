@@ -21,14 +21,14 @@ public void loginWithEmptyInput() throws InterruptedException, IOException {
 	lp.clickLogin();
 	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	logger.info("login Validation Start....");
-	System.out.println(lp.validatePass());
+	//System.out.println(lp.validatePass());
 	if(lp.validateEmail().contains(errorMsgEmail)&&lp.validatePass().contains(errorMsgPass)) {
 		logger.info("TC_FL_003 Pass");
 		Assert.assertTrue(true);
 	}else {
-		logger.info("TC_FL_003 Fail");
+		logger.warn("TC_FL_003 Fail");
 		captureScreen(driver,"loginWithEmptyInput");
-		
+		Assert.fail();
 	}
 	
 } 

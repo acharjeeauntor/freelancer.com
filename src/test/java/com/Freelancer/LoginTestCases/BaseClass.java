@@ -18,6 +18,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import com.Freelancer.pageObjects.LoginPage;
 import com.Freelancer.utilities.ReadConfig;
 
 
@@ -78,6 +79,28 @@ public class BaseClass {
 		
 		
 	}
+	
+public void loginToFreelancer() throws IOException, InterruptedException {
+	LoginPage lp = new LoginPage(driver);
+	driver.navigate().to("https://www.freelancer.com/login");
+	Thread.sleep(3000);
+	logger.info("Providing UserName and Password...");
+	lp.setEmail(email);
+	lp.setPass(password);
+	lp.clickLogin();
+	logger.info("Go to Dashboard....");
+	Thread.sleep(5000);
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	public boolean isAlertPresent() { // method to check alert is present or not

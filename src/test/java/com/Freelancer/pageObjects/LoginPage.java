@@ -37,15 +37,35 @@ public class LoginPage {
 	@FindBy(xpath="//fl-banner-alert[@role='alert']")
 	WebElement errorMsg;
 	
+	@FindBy(xpath="//fl-link[@fltrackinglabel='CredentialsForm-ForgotPassword']//button[@type='button']")
+	WebElement forgetlink;
+	
+	@FindBy(xpath="//input[@placeholder='Enter email']")
+	WebElement forgotEmail;
+	
+	@FindBy(xpath="//button[normalize-space()='Next']")
+	WebElement nextBtn;
+	
+	@FindBy(xpath="//fl-text[@data-color='error']")
+	WebElement forgetPageError;
 	
 	
 	
 	public void goToLogin() {
 		loginlink.click();
+		System.out.println("Click on login");
+	}
+	
+	public void clickNextBtn() {
+		nextBtn.click();
 	}
 	
 	public void setEmail(String e) {
 		emailInput.sendKeys(e);
+	}
+	
+	public void setForgotEmail(String e) {
+		forgotEmail.sendKeys(e);
 	}
 	
 	public void setPass(String p) {
@@ -55,6 +75,10 @@ public class LoginPage {
 	
 	public void clickLogin() {
 		loginBtn.click();
+	}
+	
+	public void clickForgotLink() {
+		forgetlink.click();
 	}
 	
 	public String validateEmail() {
@@ -68,4 +92,13 @@ public class LoginPage {
 	public String validateError() {
 		return errorMsg.getAttribute("innerHTML");
 	}
+	
+	public String validateForgotError() {
+		return forgetPageError.getAttribute("innerHTML");
+	}
+	
+	public void navigateLoginPage() {
+		ldriver.navigate().to("https://www.freelancer.com/login");
+	}
+	
 }

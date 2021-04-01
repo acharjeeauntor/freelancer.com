@@ -115,3 +115,80 @@
 2021-03-31 16:42:29,357 - Freelancer.com -INFO - Go to login and Providing valid Input....
 2021-03-31 16:43:14,812 - Freelancer.com -INFO - URL is opened
 2021-03-31 16:43:14,873 - Freelancer.com -INFO - Go to login and Providing valid Input....
+2021-04-01 15:37:46,051 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:37:46,149 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:38:27,276 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:38:27,565 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:39:30,920 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:39:30,976 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:42:41,069 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:42:41,202 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:43:11,419 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:43:11,426 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:43:44,307 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:43:44,360 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:45:34,366 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:45:34,734 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:46:17,315 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:46:17,322 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:46:38,575 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:46:38,577 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:47:51,771 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:47:51,888 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:48:42,955 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:48:43,238 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:49:42,394 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:49:42,682 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:51:30,496 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:51:30,535 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:52:15,351 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:52:15,358 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:55:21,012 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:55:21,362 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:56:09,600 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:56:09,629 - Freelancer.com -INFO - Go to login page
+2021-04-01 15:57:03,483 - Freelancer.com -INFO - URL is opened
+2021-04-01 15:57:03,486 - Freelancer.com -INFO - Go to login page
+2021-04-01 16:00:08,186 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:00:08,250 - Freelancer.com -INFO - Go to login page
+2021-04-01 16:01:09,118 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:01:09,123 - Freelancer.com -INFO - Go to login page
+2021-04-01 16:01:28,802 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:01:28,810 - Freelancer.com -INFO - Go to login page
+2021-04-01 16:03:12,846 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:03:13,300 - Freelancer.com -INFO - Go to login page
+2021-04-01 16:03:30,055 - Freelancer.com -INFO - Email Validation Start....
+2021-04-01 16:03:30,778 - Freelancer.com -INFO - TC_FP_002 Fail
+2021-04-01 16:04:11,963 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:04:12,264 - Freelancer.com -INFO - Go to login page
+2021-04-01 16:04:29,557 - Freelancer.com -INFO - Email Validation Start....
+2021-04-01 16:04:29,605 - Freelancer.com -INFO - TC_FP_003 Pass
+2021-04-01 16:04:53,564 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:04:53,637 - Freelancer.com -INFO - Go to login page
+2021-04-01 16:05:13,208 - Freelancer.com -INFO - Email Validation Start....
+2021-04-01 16:05:13,286 - Freelancer.com -INFO - TC_FP_004 Pass
+2021-04-01 16:47:44,924 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:47:56,403 - Freelancer.com -INFO - Providing UserName and Password...
+2021-04-01 16:47:57,025 - Freelancer.com -INFO - Go to Dashboard....
+2021-04-01 16:50:12,818 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:50:31,423 - Freelancer.com -INFO - Providing UserName and Password...
+2021-04-01 16:50:32,131 - Freelancer.com -INFO - Go to Dashboard....
+2021-04-01 16:52:38,390 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:52:52,318 - Freelancer.com -INFO - Providing UserName and Password...
+2021-04-01 16:52:52,883 - Freelancer.com -INFO - Go to Dashboard....
+2021-04-01 16:55:03,946 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:55:11,689 - Freelancer.com -INFO - Providing UserName and Password...
+2021-04-01 16:55:12,410 - Freelancer.com -INFO - Go to Dashboard....
+2021-04-01 16:57:47,668 - Freelancer.com -INFO - URL is opened
+2021-04-01 16:57:54,464 - Freelancer.com -INFO - Providing UserName and Password...
+2021-04-01 16:57:55,752 - Freelancer.com -INFO - Go to Dashboard....
+2021-04-01 16:58:07,753 - Freelancer.com -INFO - TC_AE_001 Fail
+2021-04-01 17:45:17,197 - Freelancer.com -INFO - URL is opened
+2021-04-01 17:45:28,959 - Freelancer.com -INFO - Providing UserName and Password...
+2021-04-01 17:45:29,533 - Freelancer.com -INFO - Go to Dashboard....
+2021-04-01 17:47:23,961 - Freelancer.com -INFO - URL is opened
+2021-04-01 17:47:31,066 - Freelancer.com -INFO - Providing UserName and Password...
+2021-04-01 17:47:32,310 - Freelancer.com -INFO - Go to Dashboard....
+2021-04-01 17:49:55,640 - Freelancer.com -INFO - URL is opened
+2021-04-01 17:50:02,112 - Freelancer.com -INFO - Providing UserName and Password...
+2021-04-01 17:50:03,319 - Freelancer.com -INFO - Go to Dashboard....

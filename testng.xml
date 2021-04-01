@@ -7,10 +7,13 @@
 	<test thread-count="5" name="Freelancer.com Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-      <!-- --><class name="com.Freelancer.LoginTestCases.TC_FL_002"/>
+      <!-- <class name="com.Freelancer.LoginTestCases.TC_FL_002"/>
       <class name="com.Freelancer.LoginTestCases.TC_FL_003"/>
       <class name="com.Freelancer.LoginTestCases.TC_FL_004"/>
-      
+      <class name="com.Freelancer.ForgotPassTestCases.TC_FP_002"/>
+      <class name="com.Freelancer.ForgotPassTestCases.TC_FP_003"/>
+      <class name="com.Freelancer.ForgotPassTestCases.TC_FP_004"/>-->
+      <class name="com.Freelancer.AddEducationTestCases.TC_AE_001"/>
     </classes>
     </test>
 </suite> <!-- Suite -->

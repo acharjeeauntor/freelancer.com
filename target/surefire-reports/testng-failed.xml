@@ -7,20 +7,13 @@
   <test thread-count="5" name="Freelancer.com Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.Freelancer.LoginTestCases.TC_FL_003">
+      <class name="com.Freelancer.AddEducationTestCases.TC_AE_001">
         <methods>
+          <include name="addEducation"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="loginWithEmptyInput"/>
         </methods>
-      </class> <!-- com.Freelancer.LoginTestCases.TC_FL_003 -->
-      <class name="com.Freelancer.LoginTestCases.TC_FL_004">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="loginWithInvalidInput"/>
-        </methods>
-      </class> <!-- com.Freelancer.LoginTestCases.TC_FL_004 -->
+      </class> <!-- com.Freelancer.AddEducationTestCases.TC_AE_001 -->
     </classes>
   </test> <!-- Freelancer.com Test(failed) -->
 </suite> <!-- Failed suite [Freelancer.com] -->

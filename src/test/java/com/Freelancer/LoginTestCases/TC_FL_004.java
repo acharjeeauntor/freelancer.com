@@ -29,9 +29,9 @@ public void loginWithInvalidInput() throws InterruptedException, IOException {
 		logger.info("TC_FL_0024 Pass");
 		Assert.assertTrue(true);
 	}else {
-		logger.info("TC_FL_004 Fail");
+		logger.warn("TC_FL_004 Fail");
 		captureScreen(driver,"loginWithInvalidInput");
-		
+		Assert.fail();
 	}
 	
 } 

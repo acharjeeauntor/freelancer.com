@@ -1,8 +1,11 @@
 com\Freelancer\pageObjects\LoginPage.class
+com\Freelancer\utilities\Reporting.class
+com\Freelancer\ForgotPassTestCases\TC_FP_004.class
+com\Freelancer\LoginTestCases\TC_FL_004.class
 com\Freelancer\LoginTestCases\TC_FL_003.class
+com\Freelancer\ForgotPassTestCases\TC_FP_003.class
 com\Freelancer\utilities\XLUtils.class
 com\Freelancer\LoginTestCases\TC_FL_002.class
 com\Freelancer\LoginTestCases\BaseClass.class
-com\Freelancer\utilities\Reporting.class
+com\Freelancer\ForgotPassTestCases\TC_FP_002.class
 com\Freelancer\utilities\ReadConfig.class
-com\Freelancer\LoginTestCases\TC_FL_004.class
