@@ -19,7 +19,7 @@ public class TC_AE_001 extends BaseClass{
 	String endDate = "2021";
 
 @Test(priority=1)
-public void addEducation() throws InterruptedException, IOException {
+public void addEducationWithValidInfo() throws InterruptedException, IOException {
 	loginToFreelancer();
 	DashboardPage dp = new DashboardPage(driver);
 	dp.clickDashboardProfile();
@@ -28,19 +28,20 @@ public void addEducation() throws InterruptedException, IOException {
 	Thread.sleep(3000);
 	AddEducation ae= new AddEducation(driver);
 	ae.clickAddEduBtn();
+	Thread.sleep(3000);
 	ae.selectCountry(country);
 	ae.selectUniversity(university);
 	ae.setDegree(degree);
 	ae.selectStartYear(startDate);
 	ae.selectEndYear(endDate);
 	ae.clickSaveBtn();
-	System.out.println(ae.getSavedDegree());
+	logger.info("Validation Start...");
 	if(ae.getSavedDegree().contains(degree)) {
-		logger.info("TC_AE_001 Pass");
+		logger.info("TC_AE_001 Passed");
 		Assert.assertTrue(true);
 	}else {
-		logger.warn("TC_AE_001 Fail");
-		captureScreen(driver,"addEducation");
+		logger.warn("TC_AE_001 Failed");
+		captureScreen(driver,"addEducationWithValidInfo");
 		Assert.fail();
 	}
 	

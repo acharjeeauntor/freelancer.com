@@ -12,8 +12,19 @@
       <class name="com.Freelancer.LoginTestCases.TC_FL_004"/>
       <class name="com.Freelancer.ForgotPassTestCases.TC_FP_002"/>
       <class name="com.Freelancer.ForgotPassTestCases.TC_FP_003"/>
-      <class name="com.Freelancer.ForgotPassTestCases.TC_FP_004"/>-->
+      <class name="com.Freelancer.ForgotPassTestCases.TC_FP_004"/>
       <class name="com.Freelancer.AddEducationTestCases.TC_AE_001"/>
+      <class name="com.Freelancer.AddEducationTestCases.TC_AE_002"/>
+      <class name="com.Freelancer.AddEducationTestCases.TC_AE_003"/>
+      <class name="com.Freelancer.AddEducationTestCases.TC_AE_004"/>
+      <class name="com.Freelancer.AddQualificationsTestCases.TC_AQ_001"/>
+  <class name="com.Freelancer.AddQualificationsTestCases.TC_AQ_002"/>
+  <class name="com.Freelancer.AddQualificationsTestCases.TC_AQ_003"/>
+  <class name="com.Freelancer.AddQualificationsTestCases.TC_AQ_004"/>-->
+  <class name="com.Freelancer.AddPublicationTestCases.TC_AP_001"/>
+   <class name="com.Freelancer.AddPublicationTestCases.TC_AP_002"/>
+   <class name="com.Freelancer.AddPublicationTestCases.TC_AP_003"/>
+   <class name="com.Freelancer.AddPublicationTestCases.TC_AP_004"/>
     </classes>
     </test>
 </suite> <!-- Suite -->
