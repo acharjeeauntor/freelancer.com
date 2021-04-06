@@ -20,11 +20,17 @@
       <class name="com.Freelancer.AddQualificationsTestCases.TC_AQ_001"/>
   <class name="com.Freelancer.AddQualificationsTestCases.TC_AQ_002"/>
   <class name="com.Freelancer.AddQualificationsTestCases.TC_AQ_003"/>
-  <class name="com.Freelancer.AddQualificationsTestCases.TC_AQ_004"/>-->
+  <class name="com.Freelancer.AddQualificationsTestCases.TC_AQ_004"/>
   <class name="com.Freelancer.AddPublicationTestCases.TC_AP_001"/>
    <class name="com.Freelancer.AddPublicationTestCases.TC_AP_002"/>
    <class name="com.Freelancer.AddPublicationTestCases.TC_AP_003"/>
-   <class name="com.Freelancer.AddPublicationTestCases.TC_AP_004"/>
+   <class name="com.Freelancer.AddPublicationTestCases.TC_AP_004"/>-->
+   <class name="com.Freelancer.AddExperienceTestCases.TC_AExp_001"/>
+   <class name="com.Freelancer.AddExperienceTestCases.TC_AExp_002"/>
+    <class name="com.Freelancer.AddExperienceTestCases.TC_AExp_003"/>
+   <class name="com.Freelancer.AddExperienceTestCases.TC_AExp_004"/>
+   
+  
     </classes>
     </test>
 </suite> <!-- Suite -->

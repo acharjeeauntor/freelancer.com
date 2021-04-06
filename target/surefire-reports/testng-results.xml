@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-05T18:16:27 BDT" name="Freelancer.com" finished-at="2021-04-05T18:19:17 BDT" duration-ms="169558">
+  <suite started-at="2021-04-06T16:41:17 BDT" name="Freelancer.com" finished-at="2021-04-06T16:46:40 BDT" duration-ms="322568">
     <groups>
     </groups>
-    <test started-at="2021-04-05T18:16:27 BDT" name="Freelancer.com Test" finished-at="2021-04-05T18:19:17 BDT" duration-ms="169558">
-      <class name="com.Freelancer.AddPublicationTestCases.TC_AP_001">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Freelancer.AddPublicationTestCases.TC_AP_001@45afc369]" started-at="2021-04-05T18:16:27 BDT" name="setUp" finished-at="2021-04-05T18:16:43 BDT" duration-ms="15729" status="PASS">
+    <test started-at="2021-04-06T16:41:17 BDT" name="Freelancer.com Test" finished-at="2021-04-06T16:46:40 BDT" duration-ms="322568">
+      <class name="com.Freelancer.AddExperienceTestCases.TC_AExp_004">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_004@17776a8]" started-at="2021-04-06T16:45:59 BDT" name="setUp" finished-at="2021-04-06T16:46:09 BDT" duration-ms="9883" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addPublicationWithValidInfo()[pri:1, instance:com.Freelancer.AddPublicationTestCases.TC_AP_001@45afc369]" started-at="2021-04-05T18:16:43 BDT" name="addPublicationWithValidInfo" finished-at="2021-04-05T18:17:17 BDT" duration-ms="33662" status="PASS">
+        <test-method signature="deleteExperience()[pri:1, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_004@17776a8]" started-at="2021-04-06T16:46:09 BDT" name="deleteExperience" finished-at="2021-04-06T16:46:39 BDT" duration-ms="29664" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addPublicationWithValidInfo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Freelancer.AddPublicationTestCases.TC_AP_001@45afc369]" started-at="2021-04-05T18:17:17 BDT" name="tearDown" finished-at="2021-04-05T18:17:18 BDT" duration-ms="937" status="PASS">
+        </test-method> <!-- deleteExperience -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_004@17776a8]" started-at="2021-04-06T16:46:39 BDT" name="tearDown" finished-at="2021-04-06T16:46:40 BDT" duration-ms="840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Freelancer.AddPublicationTestCases.TC_AP_001 -->
-      <class name="com.Freelancer.AddPublicationTestCases.TC_AP_004">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Freelancer.AddPublicationTestCases.TC_AP_004@290dbf45]" started-at="2021-04-05T18:18:39 BDT" name="setUp" finished-at="2021-04-05T18:18:55 BDT" duration-ms="15773" status="PASS">
+      </class> <!-- com.Freelancer.AddExperienceTestCases.TC_AExp_004 -->
+      <class name="com.Freelancer.AddExperienceTestCases.TC_AExp_003">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_003@12028586]" started-at="2021-04-06T16:45:12 BDT" name="setUp" finished-at="2021-04-06T16:45:31 BDT" duration-ms="18604" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,17 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="deletePublication()[pri:1, instance:com.Freelancer.AddPublicationTestCases.TC_AP_004@290dbf45]" started-at="2021-04-05T18:18:55 BDT" name="deletePublication" finished-at="2021-04-05T18:19:16 BDT" duration-ms="21050" status="PASS">
+        <test-method signature="editExprience()[pri:1, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_003@12028586]" started-at="2021-04-06T16:45:31 BDT" name="editExprience" finished-at="2021-04-06T16:45:58 BDT" duration-ms="27479" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deletePublication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Freelancer.AddPublicationTestCases.TC_AP_004@290dbf45]" started-at="2021-04-05T18:19:16 BDT" name="tearDown" finished-at="2021-04-05T18:19:17 BDT" duration-ms="937" status="PASS">
+        </test-method> <!-- editExprience -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_003@12028586]" started-at="2021-04-06T16:45:58 BDT" name="tearDown" finished-at="2021-04-06T16:45:59 BDT" duration-ms="1221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Freelancer.AddPublicationTestCases.TC_AP_004 -->
-      <class name="com.Freelancer.AddPublicationTestCases.TC_AP_002">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Freelancer.AddPublicationTestCases.TC_AP_002@799d4f69]" started-at="2021-04-05T18:17:18 BDT" name="setUp" finished-at="2021-04-05T18:17:35 BDT" duration-ms="17203" status="PASS">
+      </class> <!-- com.Freelancer.AddExperienceTestCases.TC_AExp_003 -->
+      <class name="com.Freelancer.AddExperienceTestCases.TC_AExp_002">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_002@290dbf45]" started-at="2021-04-06T16:44:34 BDT" name="setUp" finished-at="2021-04-06T16:44:42 BDT" duration-ms="7983" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,17 +60,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addPublicationWithEmptyInfo()[pri:1, instance:com.Freelancer.AddPublicationTestCases.TC_AP_002@799d4f69]" started-at="2021-04-05T18:17:35 BDT" name="addPublicationWithEmptyInfo" finished-at="2021-04-05T18:17:54 BDT" duration-ms="19328" status="PASS">
+        <test-method signature="addExprienceWithEmptyInput()[pri:1, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_002@290dbf45]" started-at="2021-04-06T16:44:42 BDT" name="addExprienceWithEmptyInput" finished-at="2021-04-06T16:45:11 BDT" duration-ms="29332" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addPublicationWithEmptyInfo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Freelancer.AddPublicationTestCases.TC_AP_002@799d4f69]" started-at="2021-04-05T18:17:54 BDT" name="tearDown" finished-at="2021-04-05T18:17:55 BDT" duration-ms="850" status="PASS">
+        </test-method> <!-- addExprienceWithEmptyInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_002@290dbf45]" started-at="2021-04-06T16:45:11 BDT" name="tearDown" finished-at="2021-04-06T16:45:12 BDT" duration-ms="873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Freelancer.AddPublicationTestCases.TC_AP_002 -->
-      <class name="com.Freelancer.AddPublicationTestCases.TC_AP_003">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Freelancer.AddPublicationTestCases.TC_AP_003@49c43f4e]" started-at="2021-04-05T18:17:55 BDT" name="setUp" finished-at="2021-04-05T18:18:14 BDT" duration-ms="18867" status="PASS">
+      </class> <!-- com.Freelancer.AddExperienceTestCases.TC_AExp_002 -->
+      <class name="com.Freelancer.AddExperienceTestCases.TC_AExp_001">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_001@49c43f4e]" started-at="2021-04-06T16:41:18 BDT" name="setUp" finished-at="2021-04-06T16:44:00 BDT" duration-ms="162065" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,15 +81,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="editPublication()[pri:1, instance:com.Freelancer.AddPublicationTestCases.TC_AP_003@49c43f4e]" started-at="2021-04-05T18:18:14 BDT" name="editPublication" finished-at="2021-04-05T18:18:38 BDT" duration-ms="23819" status="PASS">
+        <test-method signature="addExprienceWithValidInfo()[pri:1, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_001@49c43f4e]" started-at="2021-04-06T16:44:00 BDT" name="addExprienceWithValidInfo" finished-at="2021-04-06T16:44:33 BDT" duration-ms="33312" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editPublication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Freelancer.AddPublicationTestCases.TC_AP_003@49c43f4e]" started-at="2021-04-05T18:18:38 BDT" name="tearDown" finished-at="2021-04-05T18:18:39 BDT" duration-ms="1080" status="PASS">
+        </test-method> <!-- addExprienceWithValidInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Freelancer.AddExperienceTestCases.TC_AExp_001@49c43f4e]" started-at="2021-04-06T16:44:33 BDT" name="tearDown" finished-at="2021-04-06T16:44:34 BDT" duration-ms="931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Freelancer.AddPublicationTestCases.TC_AP_003 -->
+      </class> <!-- com.Freelancer.AddExperienceTestCases.TC_AExp_001 -->
     </test> <!-- Freelancer.com Test -->
   </suite> <!-- Freelancer.com -->
 </testng-results>
